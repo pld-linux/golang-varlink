@@ -11,6 +11,8 @@ URL:		https://github.com/varlink/go
 Requires:	golang
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_enable_debug_packages 0
+
 %description
 Implementation of the varlink protocol in golang.
 
